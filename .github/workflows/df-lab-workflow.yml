@@ -68,7 +68,7 @@ jobs:
           upload-poll-interval: 1000
           run-poll-interval: 30000
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: AutomatedTestOutputFiles
           path: ${{ steps.RunTest.outputs.artifact-folder }}
